@@ -200,5 +200,17 @@ details p { margin: 10px 0 0; }
   .screenshot-grid img {
     height: 200px;
   }
+
+  
+/* Make screenshots clickable */
+.screenshot-grid img {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.screenshot-grid img:hover {
+  opacity: 0.9;
+}
+
 }
 
