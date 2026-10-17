@@ -7,67 +7,6 @@
   <title>IT Support Portfolio |Solim Mindamou</title>
   <link rel="stylesheet" href="style.css">
 
-/* PROJECTS: vertical layout */
-.projects-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 30px;
-  align-items: start;
-}
-
-.projects-grid > .project-card {
-  width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-}
-
-/* ACTIVE DIRECTORY: smaller screenshots */
-.screenshot-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  margin-top: 20px;
-}
-
-.screenshot-grid figure {
-  min-width: 0;
-  margin: 0;
-  padding: 12px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.screenshot-grid img {
-  display: block;
-  width: 100%;
-  height: 180px;
-  object-fit: contain;
-  border-radius: 6px;
-}
-
-.screenshot-grid figcaption {
-  margin-top: 10px;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.screenshot-grid figcaption p {
-  margin: 6px 0 0;
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-/* MOBILE LAYOUT */
-@media (max-width: 600px) {
-  .screenshot-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .screenshot-grid img {
-    height: 200px;
-  }
-}
-
 
   
   <link rel="icon" type="image/jpeg" href="favicon.jpg">
