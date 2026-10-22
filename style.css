@@ -212,5 +212,92 @@ details p { margin: 10px 0 0; }
   opacity: 0.9;
 }
 
+
+<!--<style>-->
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 5px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid blue;
+            border-radius: 18px;
+            padding: 24px 30px;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 35px;
+        }
+
+        .column {
+            width: 45%;
+        }
+
+        h3 {
+            color: blue;
+            font-size: 18px;
+            font-weight: normal;
+            margin: 0 0 35px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 0 0 35px;
+        }
+
+        .image-placeholder {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        .center-section {
+            margin: 60px 0 45px;
+        }
+
+        .center-section h3 {
+            color: black;
+            margin-bottom: 45px;
+        }
+
+        .center-section p {
+            margin-bottom: 45px;
+        }
+
+        .bottom-row {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 12px;
+            }
+
+            .row {
+                gap: 15px;
+            }
+
+            .column {
+                width: 50%;
+            }
+
+            h3, p, .image-placeholder {
+                font-size: 14px;
+            }
+        }
+    <!--<style>-->
+
+  
 }
 
