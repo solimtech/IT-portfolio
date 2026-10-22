@@ -211,6 +211,8 @@ details p { margin: 10px 0 0; }
 .screenshot-grid img:hover {
   opacity: 0.9;
 }
-
+.center-section {
+            margin: 60px 0 45px;
+        }
 }
 
