@@ -91,12 +91,7 @@ code { color: #bae6fd; }
 .network-nodes { font-size: 1.7rem; letter-spacing: .18em; color: #c4b5fd; }
 .ping-lines { font: 700 .9rem ui-monospace, monospace; color: #86efac; }
 
-
-.project-card h3 {
-  font-size: 1.18rem;
-  text-align: center;
-  width: 100%;
-}
+.project-card h3 { font-size: 1.18rem;}
 
 .project-card .tag-list { margin-top: auto; margin-bottom: 18px; }
 details { border-top: 1px solid var(--line); padding-top: 13px; width: 100%; color: #c6d2e0; font-size: .84rem; }
@@ -223,5 +218,14 @@ details p { margin: 10px 0 0; }
 .center-section {
             margin: 60px 0 45px;
         }
+
+  
+/* Center only the Windows Help Desk project title */
+#Windows-Help-Desk-Lab h3 {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
 }
 
