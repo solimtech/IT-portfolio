@@ -90,7 +90,14 @@ code { color: #bae6fd; }
 .terminal-symbol { font: 800 1.7rem ui-monospace, monospace; color: #7dd3fc; }
 .network-nodes { font-size: 1.7rem; letter-spacing: .18em; color: #c4b5fd; }
 .ping-lines { font: 700 .9rem ui-monospace, monospace; color: #86efac; }
-.project-card h3 { font-size: 1.18rem; text-align: center; }
+
+
+.project-card h3 {
+  font-size: 1.18rem;
+  text-align: center;
+  width: 100%;
+}
+
 .project-card .tag-list { margin-top: auto; margin-bottom: 18px; }
 details { border-top: 1px solid var(--line); padding-top: 13px; width: 100%; color: #c6d2e0; font-size: .84rem; }
 summary { cursor: pointer; color: var(--blue); font-weight: 700; }
