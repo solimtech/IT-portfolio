@@ -221,7 +221,7 @@ details p { margin: 10px 0 0; }
 
   
 /* Center only the Windows Help Desk project title */
-#Windows-Help-Desk-Lab h3 {
+.Windows-Help-Desk-Lab h3 {
   text-align: center;
   width: 100%;
   display: block;
