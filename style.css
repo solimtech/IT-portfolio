@@ -230,15 +230,26 @@ details p { margin: 10px 0 0; }
 
 
 
-/* Center only sections 05 and 06 */
-.project-card .centered-section-title {
-    display: block;
-    width: 100%;
-    text-align: center !important;
+
+/* Center section 05 across the full row */
+.screenshot-grid .full-width-section {
     grid-column: 1 / -1;
-    margin: 20px 0;
-    box-sizing: border-box;
 }
+
+.screenshot-grid .full-width-section > strong {
+    display: block;
+    text-align: center !important;
+    width: 100%;
+}
+
+/* Center section 06 across the full row */
+.screenshot-grid > .centered-section-title {
+    grid-column: 1 / -1;
+    display: block;
+    text-align: center !important;
+    width: 100%;
+}
+
 
 
 
