@@ -229,14 +229,17 @@ details p { margin: 10px 0 0; }
 }
 
 
-.centered-section-title {
+
+/* Center only sections 05 and 06 */
+.project-card .centered-section-title {
     display: block;
     width: 100%;
     text-align: center !important;
     grid-column: 1 / -1;
-    justify-self: stretch;
+    margin: 20px 0;
     box-sizing: border-box;
 }
+
 
 
 }
