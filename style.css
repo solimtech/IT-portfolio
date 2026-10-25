@@ -227,11 +227,14 @@ details p { margin: 10px 0 0; }
   width: 100%;
   display: block;
 }
-/* Center only 05. Checking Available Disk Space */
-.05.checking-available-disk-space {
-  text-align: center;
-  width: 100%;
-  display: block;
+
+/* Center only sections 05 and 06 */
+.centered-section-title {
+    text-align: center;
+    display: block;
+    width: 100%;
+    grid-column: 1 / -1;
 }
+
 }
 
