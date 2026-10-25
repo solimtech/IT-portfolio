@@ -242,13 +242,26 @@ details p { margin: 10px 0 0; }
     width: 100%;
 }
 
-/* Center section 06 across the full row */
-.screenshot-grid > .centered-section-title {
-    grid-column: 1 / -1;
-    display: block;
+
+/* Center only section 05 and section 06 titles */
+#disk-space-title,
+#windows-update-title {
+    display: block !important;
+    width: 100% !important;
     text-align: center !important;
-    width: 100%;
+    box-sizing: border-box;
 }
+
+/* Make section 05 span both grid columns */
+figure:has(#disk-space-title) {
+    grid-column: 1 / -1;
+}
+
+/* Make section 06 span both grid columns */
+#windows-update-title {
+    grid-column: 1 / -1;
+}
+
 
 
 
