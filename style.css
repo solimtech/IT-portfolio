@@ -244,8 +244,9 @@ details p { margin: 10px 0 0; }
 
 
 /* Center only section 05 and section 06 titles */
-#disk-space-title,
-#windows-update-title {
+#checking-available-disk-space,
+#checking-windows-update
+  {
     display: block !important;
     width: 100% !important;
     text-align: center !important;
@@ -253,17 +254,14 @@ details p { margin: 10px 0 0; }
 }
 
 /* Make section 05 span both grid columns */
-figure:has(#disk-space-title) {
+figure:has(#checking-available-disk-space) {
     grid-column: 1 / -1;
 }
 
 /* Make section 06 span both grid columns */
-#windows-update-title {
+#checking-windows-update {
     grid-column: 1 / -1;
 }
-
-
-
 
 
 }
