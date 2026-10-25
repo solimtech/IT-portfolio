@@ -228,13 +228,16 @@ details p { margin: 10px 0 0; }
   display: block;
 }
 
-/* Center only sections 05 and 06 */
+
 .centered-section-title {
-    text-align: center;
     display: block;
     width: 100%;
+    text-align: center !important;
     grid-column: 1 / -1;
+    justify-self: stretch;
+    box-sizing: border-box;
 }
+
 
 }
 
